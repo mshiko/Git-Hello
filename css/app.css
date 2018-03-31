@@ -1,0 +1,27 @@
+.container {
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .box {
+    border: 1px solid #00f;
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px black;
+  }
+
+  box1{
+      flex-basis: 33%
+  }
+
+  box2{
+    flex-basis: 33%
+}
+
+box3{
+    flex-basis: 33%
+}
